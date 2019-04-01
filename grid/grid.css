@@ -1,0 +1,18 @@
+body{
+	margin: 0;
+}
+header{
+	height: 60vh;
+	background-color: #585858;
+	background-image: url("https://cdn.discordapp.com/attachments/520563374921220096/560854892344770591/telechargement.png");
+	 background-size: 1440px;
+}
+.menu{
+	display: grid;
+	grid-template-columns:90% 1fr 1fr 90%; 
+	color: #FFF;
+
+}
+.menu h4:nth-child(1){
+	margin-left: 30px;
+}

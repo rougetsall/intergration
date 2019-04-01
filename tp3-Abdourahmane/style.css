@@ -1,0 +1,199 @@
+  header{
+	background-color: #3e51b5;
+	height: 130px;
+      width: 110%;
+    color: #fff;
+    display: flex;
+    "justify-content: space-between;"
+     box-shadow: 1px 0px 15px #000;
+     margin-left: -5%;
+     margin-top: -2%;
+
+
+}
+header  ul {
+	display:flex;
+	flex-direction: row;
+	margin-right: 5%;
+	  margin-top: 3%;
+	}
+header li{. 
+	display: flex;
+	align-self: center;
+	
+	margin-left: 10px;
+}
+header h1{
+	margin-left: 10%;
+	margin-top: 3%;
+}
+footer{
+	background-color: #000;
+	height: 350px;
+     margin-left: -2%;
+    color: #fff;
+      width: 110%;
+    display: flex;
+    justify-content:  space-between;
+   margin-top: 12%;
+
+}
+footer div:first-child {
+	width: 25%;
+	margin-left: 5%;
+	
+
+
+}
+footer div:nth-child(2) ul {
+	
+    margin-left: -190%;
+    margin-top: 30%;
+   
+}
+footer div:nth-child(3) ul {
+	
+    margin-left: -190%;
+    margin-top: 25%;
+   
+}
+.datatable{
+margin: auto;
+ margin-top: 2%;
+width: 70%;
+margin-left: 20%;
+
+}
+.datatable .row:nth-child(1){
+	border: 4px solid #000;
+	display: flex;
+	justify-content: space-around;
+	height: 40px;
+
+	border-radius: 5px;
+	
+}
+.datatable .head:nth-child(1) div{
+	border: 2px solid #000;
+	width: 33%;
+	text-align: center;
+}
+.content{
+	display: flex;
+	flex-direction: column;
+	border: 4px solid #000;
+	border-radius: 5px;
+	margin-top: 2%;
+}
+.content .row:nth-child(1){
+	display: flex;
+	height: 40px;
+	border: 1px solid #000;
+  justify-content: space-around;
+}
+.content .row:nth-child(1) div{
+	border-left: 2px solid #000;
+	width: 33%;
+	text-align: center;
+}
+.content .row:nth-child(2){
+	display: flex;
+	height: 40px;
+	border: 1px solid #000;
+  justify-content:  space-around ;
+}
+.content .row:nth-child(2) div{
+	border-left:2px solid #000;
+	width: 33%;
+	text-align: center;
+}
+.content .row:nth-child(3){
+	display: flex;
+	height: 40px;
+	border: 1px solid #000;
+  justify-content: space-around;
+}
+.content .row:nth-child(3) div{
+	border-left: 2px solid #000;
+	width: 33%;
+	text-align: center;
+}
+.content .row:nth-child(4){
+	display: flex;
+	height: 40px;
+	border: 1px solid #000;
+  justify-content: space-around;
+}
+.content .row:nth-child(4) div{
+	border-left: 2px solid #000;
+	width: 33%;
+	text-align: center;
+}
+.content .row:nth-child(5){
+	display: flex;
+	height: 40px;
+	border: 1px solid #000;
+  justify-content: space-around;
+}
+.content .row:nth-child(5) div{
+	border-left: 2px solid #000;
+	width: 33%;
+	text-align: center;
+}
+#reverse:checked  ~ .datatable .content {
+
+flex-direction: column-reverse;
+}
+
+#type:checked ~ .datatable .content .music{
+order: 1;
+}
+#type:checked ~ .datatable .content .movie{
+order: 0;
+}
+#type:checked ~ .datatable .content .tech{
+order: 2;
+}
+input {
+	display: none;
+}
+#reverse:checked ~ .datatable .reverse label {
+
+background-color: #A9F5F2;
+}
+#type:checked ~ .datatable .type label {
+
+background-color: #A9F5F2;
+}
+.reverse label {
+	display: block;
+	height: 100%;
+	width: 100%;
+	
+}
+.reverse label:hover {
+	
+	background-color: #A9F5F2;
+	cursor: pointer;
+}
+.type label {
+	display: block;
+	height: 100%;
+	width: 100%;
+	
+}
+.type label:hover {
+	display: block;
+	height: 100%;
+	width: 100%;
+	background-color: #A9F5F2;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+

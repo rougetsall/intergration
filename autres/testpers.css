@@ -1,0 +1,139 @@
+
+body > div:nth-child(1){
+	
+	box-shadow: 1px 1px 20px #000;
+     width: 50%;
+	height: 900px;
+    margin-left: 25%; 
+    background-color: #045FB4;
+    flex: 2;
+
+}
+
+div > div:nth-child(1){
+	display: block;
+  width: 100%;
+  height: 10%;
+  margin-top: -5%;
+  background-color: #F4FA58;
+
+}
+body{
+	width: 100%;
+  height: 90%;
+background-color: #045FB4;
+
+}
+div > div > h1:nth-child(1){
+	display: block;
+	color: #fff;
+	
+	margin-left: 30%;
+	padding-top: 7%;
+	color: #045FB4;
+
+}
+div > div:nth-child(2) > h1:nth-child(1){
+	color: #04B486;
+	margin-left: 90%;
+	margin-top: -3%;
+
+}
+div > div:nth-child(2) > div:first-of-type{
+	color: #fff;
+	width: 95%;
+   height: 10%;
+   margin-left: 2%;
+   background-color:#04B486; 
+
+}
+.autre{
+	color: #fff;
+	width: 95%;
+   height: 10%;
+   margin-left: 2%;
+   background-color:#04B486; 
+
+}
+
+.choix{ 
+	padding-left: 3%;
+	padding-top: 1%;
+}
+.choi1{
+	color: #045FB4;
+	width: 95%;
+   height: 10%;
+   margin-left: 2%;
+   background-color:#848484; 
+   opacity: 0.7;
+   cursor: pointer;
+}
+.choi1:hover {
+	opacity: 1;
+	background-color: #fff;
+}
+.choi1 >h2{
+	padding-left: 3%;
+	padding-top: 2%;
+}
+
+.choi2{
+	color: #045FB4;
+	width: 95%;
+   height: 10%;
+   margin-left: 2%;
+   background-color:#848484; 
+ opacity: 0.7;
+   cursor: pointer;
+}
+.choi2:hover{
+	opacity: 1;
+	background-color:#fff;
+}
+.choi2 >h2{
+	padding-left: 3%;
+	padding-top: 2%;
+}
+
+
+.choi3{
+	color: #045FB4;
+	width: 95%;
+   height: 10%;
+   margin-left: 2%;
+    background-color:#848484; 
+ opacity: 0.7;
+   cursor: pointer;
+}
+.choi3:hover{
+	opacity: 1;
+	background-color:#fff; 
+}
+.choi3 >h2{
+	padding-left: 3%;
+	padding-top: 1%;
+}
+
+.choi4{
+	color: #045FB4;
+	width: 95%;
+   height: 10%;
+   margin-left: 2%;
+   background-color:#848484; 
+opacity: 0.7;
+   cursor: pointer;
+}
+.choi4:hover{
+	opacity: 1;
+	background-color:#fff; 
+}
+.choi4 >h2{
+	padding-left: 3%;
+	padding-top: 2%;
+}
+.deux{
+		color: #04B486;
+	margin-left: 90%;
+	
+}

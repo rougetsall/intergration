@@ -1,0 +1,214 @@
+.Connexion{
+	width: 150px;
+	height: 40px;
+	background-color: blue;
+	 border-radius: 15px;
+	 color: #fff;
+	 float: right;
+	 margin-right: 20px;
+	 cursor: pointer;
+}
+.Connex{
+	width: 150px;
+	height: 40px;
+	background-color: blue;
+	 border-radius: 15px;
+	 color: #fff;
+	margin-left: -30px;
+	margin-top: 50px;
+   cursor: pointer;
+}
+.conne{
+	height: 100px;
+}
+.forms{
+	border-radius: 15px;
+	width: 2000px;
+	height: 900px;
+	background-color: #BCC8EF;
+	margin-left: -16px;
+	border: 10px solid #BCC8EF;
+	display: flex;
+	justify-content: space-between;
+    box-shadow: 1px 1px 15px #000; 
+	
+
+}
+.free{ 
+	width: 360px;
+	height: 500px;
+	background-color: #fff;
+	 border-radius: 20px;
+	box-shadow: 1px 1px 10px #000;
+	margin-top: 100px;
+	margin-left: 50px;
+	overflow: hidden;
+}
+.premun{
+	
+	width: 360px;
+	height: 500px;
+	background-color: #fff;
+	 border-radius: 20px;
+	
+
+	margin-top: 100px;
+	
+	box-shadow: 1px 1px 10px #000;
+	overflow: hidden;
+
+}
+
+.great{
+	
+	width: 360px;
+	height: 500px;
+	
+	margin-right: 640px;
+	margin-top: 70px;
+	background-color: #fff;
+	 border-radius: 20px;
+	
+
+	margin-top: 100px;
+	
+	box-shadow: 1px 1px 10px #000;
+overflow: hidden;
+
+}
+.formular1{
+	width: 600px;
+    height: 180px;
+    background: linear-gradient(#01A9DB, #00D9F2);
+    border-radius: 0 0 50% 50%;
+    margin-left: -110px;
+	
+
+}
+
+.fref{
+	position: relative;
+	margin: auto;
+	display: block;
+  margin-left: 70px;
+	margin-top: -150px;
+	color: #fff;
+	
+}
+.lor{
+	width: 200px;
+	height: 200px;
+	margin-left: 130px;
+	font-size: 15px;
+	margin-top: 150px;
+	color: #A4A4A4
+
+
+}
+.fres{
+	color: #01A9DB;
+	margin-left: 150px;
+	margin-top: -100px;
+
+}
+.buy{
+	color: #01A9DB;
+	margin-left: 100px;
+	margin-top: -100px;
+}
+.nope{
+	width: 140px;
+	height: 40px;
+	border-radius: 30px;
+	background-color: #EF4668;
+	font-size: 15px;
+	margin-left: 110px;
+
+}
+
+.Buynow{
+	width: 160px;
+	height: 60px;
+	border-radius: 30px;
+	background-color: #01A9DB;
+	font-size: 15px;
+	margin-left: 100px;
+}
+.Sold{
+	color: #01A9DB;
+	margin-left: 100px;
+	margin-top: -100px;
+
+}
+
+.Soldout{
+	width: 100px;
+	height: 45px;
+	border-radius: 30px;
+	background-color: #848484;
+	font-size: 10px;
+	margin-left: 130px;
+
+}
+#Dialog{
+	width: 650px;
+	height: 380px;
+	border-radius: 20px;
+	border: 10px solid #fff;
+	margin-top: 250px;
+	text-align: center;
+  background-color: #ffff;
+  box-shadow: 1px 1px 20px #000; 
+}
+input{
+	width: 600px;
+	height: 50px;
+	border-radius: 20px;
+	font-size: 25px;
+	margin-left:-70px;
+	margin-top: 20px;
+
+}
+#closeDialog{
+	display: block;
+	margin-left: 630px;
+	margin-top: -340px;
+	background-color: transparent;
+	border-radius: 50%;
+	border:0;
+	cursor: pointer;
+}
+
+
+.pop{
+
+position: fixed;
+
+width: 2000px;
+height: 900px;
+background-color: rgba(0,0,0,0.7);
+ top: 0;
+ left: 0;
+}
+.actionn{
+position: relative;
+height: 40vh;
+width: 
+background-color: #fff;
+}
+.croix{
+	width: 20px;
+	height: 3px;
+	background-color: #000;
+	transform: rotate(45deg);
+ position: absolute;
+}
+.croix::before{
+	display: block;
+	content: "";
+		width: 20px;
+	height: 3px;
+	background-color: #000;
+	transform: rotate(-90deg);
+
+}

@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "project_1_supinternet",
+  "version": "0.1.0",
+  "description": "",
+ 
+  "content_scripts": [{
+    "css": ["style.css"],
+    "js": ["script.js"],
+    "matches": ["http://intranet.supinternet.fr/*","http://intranet.supinternet.fr/?action=presence"]
+  }]
+
+
+ 
+}
